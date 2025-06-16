@@ -1,7 +1,7 @@
 # dotfiles
 my dev env
 
-## vim
+### vim
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -13,19 +13,20 @@ curl https://raw.githubusercontent.com/shelvinskyi/dotfiles/master/.vimrc \
 then do `:PlugInstall` and `:LspInstallServer pylsp-all`
 ```
 
-## venv
+### venv
 
 ```
 sudo apt install python3-venv
 ```
 
-## tools
+### tools
 
+```
 sudo apt install fd-find fzf tmux ripgrep
 export FZF_DEFAULT_COMMAND='fdfind --type f --hidden --follow --exclude .git'
 ```
 
-## tmux
+### tmux
 
 ```
 mkdir -p ~/.tmux/plugins/ \
