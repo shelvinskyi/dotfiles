@@ -29,7 +29,7 @@ export FZF_DEFAULT_COMMAND='fdfind --type f --hidden --follow --exclude .git'
 ### tmux
 
 ```
-mkdir -p ~/.tmux/plugins/ \
-  && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm \
-  && curl https://raw.githubusercontent.com/shelvinskyi/dotfiles/master/.tmux.conf -o ~/.tmux.conf
+mkdir -p ~/.tmux/plugins/ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+curl https://raw.githubusercontent.com/shelvinskyi/dotfiles/master/.tmux.conf \
+    -o ~/.tmux.conf
 ```
